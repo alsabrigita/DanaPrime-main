@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+        body {
+            display: flex;
+	        justify-content: center;
+	        align-items: center;
+	        height: 100vh;
+	        margin: 0;
+	        background-color: #00459A;
+	        font-family: Arial, sans-serif
+        }
+        h1{
+            color: #00459A;
+            font-family: 'Montserrat';
+        }
+        h2{
+            margin-top: 0;
+            text-align: left;
+        }
+        h3{
+            margin-top: 0;
+            text-align: left;
+            color: #7D7C7C;
+            font-size: medium;
+        }
+        .container {
+            width: 300px;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            margin-top: 100px;
+            background-color: #FFFFFF;
+        }
+        /*.logo {
+            width: 200px; 
+            height: auto; 
+        }
+        .img-container {
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }*/
+        .input-field {
+            width: 80%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        input[type="text"],
+        input[type="password"] {
+	        width: 100%;
+	        padding: 10px;
+	        margin-top: 5px;
+	        border-radius: 5px;
+	        border: 1px solid #ccc;
+        }
+        .button-container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        button[type="submit"] {
+            background-color: #00459A;
+	        color: white;
+	        padding: 10px 20px;
+	        margin-top: 20px;
+	        border: none;
+	        border-radius: 5px;
+	        cursor: pointer;
+        }
+        button[type="submit"]:hover {
+	        background-color: #7FC7D9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!--<div class="img-container">
+            <img class="logo" src="assets/DanaPrime Logo.svg" alt="DanaPrimeLogo">-->
+        <h1>DanaPrime</h1>
+        <h2>Login</h2>
+        <h3>Silahkan masuk ke akun anda</h3>
+        <form>
+            <input type="text" id="username" class="input-field" placeholder="Username">
+            <input type="password" id="password" class="input-field" placeholder="Password">
+            <div class="button-container">
+                <button type="submit">Login</button>
+            </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
